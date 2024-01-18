@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DiscoveryServerApplication",
+            "request": "launch",
+            "mainClass": "com.healthcare.discoveryserver.DiscoveryServerApplication",
+            "projectName": "discovery-server"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-PatientServiceApplication<patient-service>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -41,7 +48,8 @@
             "mainClass": "com.healthcare.medicalrecordservice.MedicalRecordServiceApplication",
             "projectName": "medical-record-service",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54453 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=medical-record-service"
         }
     ]
 }
