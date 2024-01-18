@@ -1,15 +1,8 @@
-Sure, here are the names for the five services with hyphens for consistency:
-
-1. **patient-service**: Manages patient profiles, health records, and history.
-2. **appointment-scheduling-service**: Handles booking, rescheduling, and cancellation of appointments.
-3. **medical-record-service**: Maintains detailed medical records and history.
-4. **online-consultation-service**: Facilitates online consultations and follow-ups.
-5. **notification-service**: Sends notifications and reminders to patients and staff.
-
-These names are descriptive and adhere to a common naming convention, which is helpful for clarity and organization in a microservices architecture.
+ 
 
 
 # Healthcare Management System - Microservices Communication
+
 
 ## Services:
 
@@ -18,6 +11,16 @@ These names are descriptive and adhere to a common naming convention, which is h
 3. **Medical Record Service**
 4. **Online Consultation Service**
 5. **Notification Service**
+
+Here are the names for the five services with hyphens for consistency:
+
+1. **patient-service**: Manages patient profiles, health records, and history.
+2. **appointment-scheduling-service**: Handles booking, rescheduling, and cancellation of appointments.
+3. **medical-record-service**: Maintains detailed medical records and history.
+4. **online-consultation-service**: Facilitates online consultations and follow-ups.
+5. **notification-service**: Sends notifications and reminders to patients and staff.
+
+These names are descriptive and adhere to a common naming convention, which is helpful for clarity and organization in a microservices architecture.
 
 ## Communication Flow:
 

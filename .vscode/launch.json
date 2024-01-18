@@ -8,6 +8,39 @@
             "mainClass": "com.healthcare.patientservice.PatientServiceApplication",
             "projectName": "patient-service",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51562 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=patient-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MedicalRecordServiceApplication<medical-record-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.healthcare.medicalrecord.MedicalRecordServiceApplication",
+            "projectName": "medical-record-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51823 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=medical-record-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AppointmentSchedulingServiceApplication<appointment-scheduling-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.healthcare.appointmentscheduling.AppointmentSchedulingServiceApplication",
+            "projectName": "appointment-scheduling-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51617 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=appointment-scheduling-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MedicalRecordServiceApplication<medical-record-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.healthcare.medicalrecordservice.MedicalRecordServiceApplication",
+            "projectName": "medical-record-service",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
